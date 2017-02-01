@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Tue Jan 31 16:19:05 MST 2017
+2.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+5.set=ANDROID_RESOURCE
+3.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_
+2.set=ANDROID_RESOURCE
+4.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_/res/layout/news_articles.xml
+5.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+1.set=ANDROID_RESOURCE
+2.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_/res/layout/article_view.xml
+0.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+3.set=ANDROID_RESOURCE
+1.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/res/resources-debug.ap_/res/layout-large-v4/news_articles.xml
+0.set=ANDROID_RESOURCE

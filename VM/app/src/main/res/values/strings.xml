@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name = "lipsum_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non leo dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec tortor tellus, scelerisque vel dapibus sollicitudin, molestie euismod diam. Ut laoreet neque lectus, et porta diam egestas non. Donec mi mi, maximus vitae aliquet et, fringilla accumsan felis. Fusce at orci massa. Sed sit amet augue efficitur, laoreet sem at, posuere nisl. Donec egestas est non dui tincidunt, ut cursus ex sodales. Nulla facilisi. Ut odio mauris, eleifend sit amet dictum sit amet, congue et enim. Sed lacinia nulla et imperdiet tempus. Fusce ornare magna eget sem interdum tincidunt. Maecenas pellentesque cursus suscipit. Nulla auctor fringilla nulla vitae posuere. Vivamus quis sapien gravida, iaculis justo quis, semper turpis.</string>
+</resources>

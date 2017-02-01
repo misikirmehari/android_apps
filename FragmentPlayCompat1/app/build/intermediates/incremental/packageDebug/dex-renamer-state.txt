@@ -1,0 +1,7 @@
+#Tue Jan 31 16:14:52 MST 2017
+base.0=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_810aaa3a1ce966d6bbc7791089906832cf861f99
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e4f85736c19c0c4bf46c2bc03d40f5dcf7e682e2/classes.dex
+base.1=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e4f85736c19c0c4bf46c2bc03d40f5dcf7e682e2
+file.0=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_810aaa3a1ce966d6bbc7791089906832cf861f99/classes.dex

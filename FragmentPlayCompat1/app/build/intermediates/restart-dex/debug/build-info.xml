@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="65271628282612"
+    token="1130467937731101076"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="64124957416667"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="65271628282612"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

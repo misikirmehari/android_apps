@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Tue Jan 31 16:14:41 MST 2017
+2.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+6.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+2.set=ANDROID_RESOURCE
+4.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+5.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+1.set=ANDROID_RESOURCE
+2.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment2_view.xml
+6.set=ANDROID_RESOURCE
+0.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/res/resources-debug.ap_/res/layout/article_view.xml
+0.set=ANDROID_RESOURCE

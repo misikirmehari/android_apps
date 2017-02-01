@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_d59fc48d2830dfdc2bb7a7c960ade69efc0f5b04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd6b3eea2e28cc2a09d966a323b702792c9dae97">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e4f85736c19c0c4bf46c2bc03d40f5dcf7e682e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e6b1de08fbdb9f9afa6d43c40351bbd0cefa103">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentPlayCompat1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_810aaa3a1ce966d6bbc7791089906832cf861f99/classes.dex" />
+    </item>
+
+</items>
