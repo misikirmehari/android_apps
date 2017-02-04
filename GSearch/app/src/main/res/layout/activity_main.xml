@@ -3,16 +3,15 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:padding="10dp"
-    >
+    android:padding="10dp">
 
 
     <EditText
-        android:gravity="center"
         android:id="@+id/editTextInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter search text">
+        android:gravity="center"
+        android:hint="Enter News Source ">
 
     </EditText>
 
@@ -21,16 +20,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Search"
-        android:onClick="onSearchClick">
+        android:onClick="onSearchClick"
+        android:text="Search">
 
     </Button>
-    <LinearLayout
-        android:orientation="horizontal"
+
+    <WebView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/Frag_container"
-        >
-        android:
-    </LinearLayout>
+        android:layout_height="match_parent" />
+
 </LinearLayout>

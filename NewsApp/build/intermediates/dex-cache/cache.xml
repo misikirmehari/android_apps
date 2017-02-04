@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d38dacaf1705218207f2c6a444d481a4b2a559df">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2331f714aed9c75fc755f87594bf85f0fbc5d6f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b22bdf97624b342134296d61bcbee7213ea1e185">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_abc034ed4bc5169227a753f7ddfaf83c213cf3d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e267e1def595d9a3da1d864e208ca41c6f2662fb">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_edc81841f1b05a7a110df72129b6f023f7344630/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="275ddfe491d2d39b6976eea330c49ad35f378960">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d4630c01702387fdd83628976f26ddf4ed7ab0c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_4f6433497810732151eaec2000ab3cae2c4a7ad8/classes.dex" />
+    </item>
+
+</items>

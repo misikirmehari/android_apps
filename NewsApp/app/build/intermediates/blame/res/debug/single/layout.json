@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/build/intermediates/res/merged/debug/layout/article_view.xml",
+        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/src/main/res/layout/article_view.xml"
+    },
+    {
+        "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/build/intermediates/res/merged/debug/layout/news_articles.xml",
+        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/NewsApp/app/src/main/res/layout/news_articles.xml"
+    }
+]

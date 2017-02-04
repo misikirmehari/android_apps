@@ -5,22 +5,22 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="64392905150267"
+    timestamp="6894185396919"
     token="-6159817314846069748"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="316" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="176" />
+        duration="0" />
     <task
         name="verifier"
-        duration="11" />
+        duration="0" />
 
     <artifact
         location="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/outputs/apk/app-debug.apk"
