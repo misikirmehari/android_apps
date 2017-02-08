@@ -6,27 +6,49 @@
     android:padding="10dp">
 
 
-    <EditText
-        android:id="@+id/editTextInput"
+    <TextView
+        android:text="@string/choose_news_source"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:hint="Enter News Source ">
+        android:id="@+id/textView"
+        android:textColor="@color/colorAccent"/>
 
-    </EditText>
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="onSearchClick"
-        android:text="Search">
-
-    </Button>
-
-    <WebView
+    <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:text="@string/breaking_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton_breaking"
+            android:layout_weight="1"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:text="@string/cnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton_cnn"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/ap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3_AP"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_container">
+
+    </FrameLayout>
 
 </LinearLayout>
