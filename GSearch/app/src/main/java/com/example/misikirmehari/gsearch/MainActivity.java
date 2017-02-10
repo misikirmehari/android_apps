@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Fragment_Two cnn_news_frag = new Fragment_Two();
                 Fragment_one breaking_news_frag = new Fragment_one();
+                Fragement_three ap_news_frag = new Fragement_three();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
 
 
@@ -55,15 +56,19 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.radioButton_cnn:
-//                        if(!fragmentTransaction.isEmpty()){
-//                            fragmentTransaction.remove(breaking_news_frag);
-//                            Log.i("transaction is empty", TAG);
-//                        }
-
+//
                         fragmentTransaction.replace(R.id.frame_container,cnn_news_frag);
                         fragmentTransaction.commit();
 
                         Toast.makeText(MainActivity.this, " cnn news checked", Toast.LENGTH_SHORT).show();
+                        break;
+
+                    case R.id.radioButton3_AP:
+//
+                        fragmentTransaction.replace(R.id.frame_container,ap_news_frag);
+                        fragmentTransaction.commit();
+
+                        Toast.makeText(MainActivity.this, " ap news checked", Toast.LENGTH_SHORT).show();
                         break;
 
                 }

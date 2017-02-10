@@ -49,6 +49,12 @@
         android:layout_height="match_parent"
         android:id="@+id/frame_container">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:src="@drawable/news"
+            android:contentDescription="landingPage" />
+
     </FrameLayout>
 
 </LinearLayout>
