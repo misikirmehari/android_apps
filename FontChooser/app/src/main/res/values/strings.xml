@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">"Font Chooser "</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="cnn">CNN</string>
+    <string name="ap">AP</string>
+    <string name="choose_news_source">Choose News Source</string>
+    <string name="enter_your_word_here">Enter Your Word Here</string>
+    <string name="choose_a_font_characterstic_to_edit">Choose a font characterstic to edit</string>
+
+</resources>

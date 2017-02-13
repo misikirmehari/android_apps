@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.misikirmehari.FontChooser.Fragment_Style">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="25dp"
+        android:background="@drawable/shapes"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/style_frag_text"
+        android:textSize="16sp"/>
+
+    <Button
+        android:text="Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bold"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/bold_italic"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shapesbuttons"
+
+        />
+
+    <Button
+        android:text="Bold Italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bold_italic"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+
+        android:layout_alignBottom="@+id/italic"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/shapesbuttons"
+        />
+
+    <Button
+        android:text="Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/normal"
+        android:textAllCaps="true"
+        android:layout_marginBottom="118dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/shapesbuttons"
+        />
+
+    <Button
+        android:text="Italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/italic"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/normal"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/shapesbuttons"
+        />
+
+
+</RelativeLayout>

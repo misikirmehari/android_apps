@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.misikirmehari.FontChooser.Fragment_Typeface">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/default_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapesbuttons"
+        android:layout_above="@+id/default_bold_font"
+        android:layout_alignStart="@+id/default_bold_font"
+        android:layout_marginBottom="29dp"
+        android:text="Default" />
+
+    <Button
+        android:id="@+id/default_bold_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/monospace_font"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/shapesbuttons"
+        android:text="Default_bold"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/sans_serif_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/default_font"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:text="Sans Serif"
+        android:textAllCaps="true"
+        android:background="@drawable/shapesbuttons"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/serif_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sans_serif_font"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:text="Serif"
+        android:textAllCaps="true"
+        android:background="@drawable/shapesbuttons"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/font_frag_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shapes"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:translationY="25dp" />
+
+    <Button
+        android:id="@+id/monospace_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:text="Monospace"
+        android:background="@drawable/shapesbuttons"
+        android:textAllCaps="true"
+        android:typeface="monospace" />
+
+
+</RelativeLayout>
