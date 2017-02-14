@@ -56,9 +56,12 @@ public class MainActivity extends AppCompatActivity {
 
                     case com.example.misikirmehari.FontChooser.R.id.radioButton_size:
 //
+                        String size_txt = editText.getText().toString();
+                        Bundle sizeBundle = new Bundle();
+                        sizeBundle.putString("size",size_txt);
+                        size_frag.setArguments(sizeBundle);
                         fragmentTransaction.replace(com.example.misikirmehari.FontChooser.R.id.frame_container, size_frag);
                         fragmentTransaction.commit();
-
                         Toast.makeText(MainActivity.this, " Size Clicked", Toast.LENGTH_SHORT).show();
                         break;
 
@@ -70,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                         font_frag.setArguments(bundle1);
 
                         fragmentTransaction.replace(R.id.frame_container, font_frag);
-
                         fragmentTransaction.commit();
 
                         Toast.makeText(MainActivity.this, " Font Clicked ", Toast.LENGTH_SHORT).show();
@@ -79,6 +81,11 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.radioButton_color:
 //
+                        String color = editText.getText().toString();
+                        Bundle color_bundle = new Bundle();
+                        color_bundle.putString("color",color);
+                        color_frag.setArguments(color_bundle);
+
                         fragmentTransaction.replace(com.example.misikirmehari.FontChooser.R.id.frame_container, color_frag);
                         fragmentTransaction.commit();
 

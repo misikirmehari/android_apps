@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:translationY="25dp"
         android:background="@drawable/shapes"
-        android:textColor="@color/colorAccent"
+
         android:layout_marginTop="38dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

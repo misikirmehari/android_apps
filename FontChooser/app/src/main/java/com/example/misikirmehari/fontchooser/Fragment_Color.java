@@ -32,6 +32,8 @@ public class Fragment_Color extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
+
+
         View view = inflater.inflate(com.example.misikirmehari.FontChooser.R.layout.fragment_fragment_color, container, false);
 
         final SeekBar seekBar_red = (SeekBar) view.findViewById(R.id.seekbar_red);
@@ -42,11 +44,55 @@ public class Fragment_Color extends Fragment {
 
         final TextView v = (TextView) view.findViewById(R.id.color_frag_text);
 
+        String colorinput = getArguments().getString("color");
+        v.setText(colorinput);
 
 
         seekBar_red.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+
+                v.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
+
+
+        seekBar_green.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                v.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
+
+
+
+
+        seekBar_blue.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+
                 v.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
             }
 
