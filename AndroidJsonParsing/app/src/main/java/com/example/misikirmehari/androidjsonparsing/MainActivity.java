@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView lv;
 
     // URL to get contacts JSON
-    private static String url = " https://newsapi.org/v1/articles?source=cnn&apiKey=b88d1a7d390e45e4bb74cfecc1c1246d";
+    private static String url = " https://newsapi.org/v1/articles?source=bbc-news&apiKey=b88d1a7d390e45e4bb74cfecc1c1246d";
 
     ArrayList<HashMap<String, String>> contactList;
 
