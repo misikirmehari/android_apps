@@ -35,6 +35,9 @@ public class ChalkBoard extends View {
     int displayWidth;       //width of screen - initialized in constructor
     int displayHeight;      //height of screen - initialized in constructor
 
+    public static final int BOUNCE_RECOLOR = 24;
+
+
     //values to define rectangle placed on screen
     float startX =  55.0f;  //left-most x-coordinate
     float width  = 300.0f;  //rectangle width
@@ -163,6 +166,16 @@ public class ChalkBoard extends View {
                 at_once.play(recolorguy).after(moveguy);
                 at_once.start();
                 break;
+            case BOUNCE_RECOLOR:
+                anim = getObjectAnimator(500,"fraction", 0.0f, 1.0f);
+                anim.setInterpolator(new BounceInterpolator());
+                ObjectAnimator clr = getObjectAnimator(800,"curr_color", 0.0f, 1.0f);
+                AnimatorSet setcler = new AnimatorSet();
+                setcler.play(clr).after(anim);
+                setcler.start();
+                break;
+
+
             default: break;
         }
     }

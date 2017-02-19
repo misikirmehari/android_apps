@@ -57,5 +57,10 @@
         android:orderInCategory="62"
         android:title="@string/moverotatecolor_anim"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/bounce_recolor"
+        android:orderInCategory="63"
+        android:title="bounce_recolor"
+        app:showAsAction="never" />
 
 </menu>

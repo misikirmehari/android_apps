@@ -599,6 +599,7 @@ int id backgroundLayout 0x7f0c006b
 int id beginning 0x7f0c0031
 int id bottom 0x7f0c001d
 int id bounce_animation 0x7f0c0087
+int id bounce_recolor 0x7f0c008d
 int id buttonPanel 0x7f0c0044
 int id cancel_action 0x7f0c0076
 int id center 0x7f0c001e

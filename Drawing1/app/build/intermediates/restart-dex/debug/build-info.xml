@@ -5,29 +5,29 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="82618099069665"
+    timestamp="85932340239436"
     token="-3274875204435616499"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="4108" />
+        duration="720" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="692" />
+        duration="563" />
     <task
         name="verifier"
-        duration="204" />
+        duration="169" />
 
     <artifact
         location="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="82618099069665"
+        timestamp="85932340239436"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/outputs/apk/app-debug.apk"

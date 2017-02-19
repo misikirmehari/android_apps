@@ -7,17 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="899b83c7fd46f32c61c6b6243699bb4bb51f6fc5">
+        sha1="cc786a63ce55a8cef7963f58526a72e9ba39dc53">
         <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f1d7bc1056abb2cdc5a29dc68ff7bd4f5073a899/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_7fa5d01cc254bee8651d883ac6a93d73fb6ec519/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,11 +21,47 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_0b6ef1bbede844f26047ab8502a2febcce08b27e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_b4c1fecc0bac82ae844f699cb37501e283302551/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_d56d26ff315f32290c39d7d5c68f353916fbb7dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_7fa5d01cc254bee8651d883ac6a93d73fb6ec519/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="715ab9e1e1c7e3313e3d75082c5337c2853d215f">
+        sha1="1996ed632810b6ec76ff3c8e9d312c95350cd276">
         <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7cc074caaa80b197809ec458fc9b59cc1dcca719/classes.dex" />
     </item>
     <item
@@ -57,39 +84,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_0b6ef1bbede844f26047ab8502a2febcce08b27e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_b4c1fecc0bac82ae844f699cb37501e283302551/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_68a51c8ca806e8303491798e9c16a5d4d934c47a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_d56d26ff315f32290c39d7d5c68f353916fbb7dd/classes.dex" />
     </item>
 
 </items>
