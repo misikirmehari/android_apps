@@ -84,6 +84,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bounce_recolor:
                 cb.setStyle(ChalkBoard.BOUNCE_RECOLOR);
                 return true;
+            case R.id.bounce_rotate:
+                cb.setStyle(ChalkBoard.BOUNCE_ROTATE);
+                return true;
+
             case R.id.action_settings:
                 break;
             default: break;

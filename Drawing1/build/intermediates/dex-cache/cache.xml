@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="cc786a63ce55a8cef7963f58526a72e9ba39dc53">
+        sha1="09841b1a89ece2ca3a92cf82b177f4369b7db9e7">
         <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f1d7bc1056abb2cdc5a29dc68ff7bd4f5073a899/classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="1996ed632810b6ec76ff3c8e9d312c95350cd276">
+        sha1="c61a34a9737844dd32c152515c9f654a56b094cf">
         <dex dex="/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7cc074caaa80b197809ec458fc9b59cc1dcca719/classes.dex" />
     </item>
     <item

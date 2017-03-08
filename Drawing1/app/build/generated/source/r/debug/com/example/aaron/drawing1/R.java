@@ -2299,6 +2299,7 @@ containing a value of this type.
         public static final int bottom=0x7f0c001d;
         public static final int bounce_animation=0x7f0c0087;
         public static final int bounce_recolor=0x7f0c008d;
+        public static final int bounce_rotate=0x7f0c008e;
         public static final int buttonPanel=0x7f0c0044;
         public static final int cancel_action=0x7f0c0076;
         public static final int center=0x7f0c001e;
