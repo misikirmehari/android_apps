@@ -1,13 +1,12 @@
 <resources>
     <string name="app_name">Shipping Calculator</string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
+    <string name="action_settings">Settings</string>
+    <string name="weightLBL">Enter the Weight of your package</string>
+    <string name="ounceslbl">(in ounces)</string>
+    <string name="baseLBL">Base Cost</string>
+    <string name="addCostLBL">Added cost</string>
+    <string name="totalLBL">Total shipping cost</string>
+    <string name="ZeroDec">$0.00</string>
+    <string name="zero">0</string>
+
 </resources>
