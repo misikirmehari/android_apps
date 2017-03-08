@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2b0b57</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButtons">#6931b8</color>
+    <color name="colorBacground">#456931b8</color>
+    <color name="colorNewContactFrag">#b78bf4</color>
+</resources>
