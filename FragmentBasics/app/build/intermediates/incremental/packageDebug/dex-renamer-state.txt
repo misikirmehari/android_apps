@@ -1,7 +1,0 @@
-#Tue Jan 31 16:19:18 MST 2017
-base.0=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_edc81841f1b05a7a110df72129b6f023f7344630
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2331f714aed9c75fc755f87594bf85f0fbc5d6f9/classes.dex
-base.1=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2331f714aed9c75fc755f87594bf85f0fbc5d6f9
-file.0=/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_edc81841f1b05a7a110df72129b6f023f7344630/classes.dex
