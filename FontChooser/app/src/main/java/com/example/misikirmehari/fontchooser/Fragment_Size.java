@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-public class Fragment_Size extends Fragment {
+public class Fragment_size extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
 
 

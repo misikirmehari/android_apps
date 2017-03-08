@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-public class Fragment_Typeface extends Fragment {
+public class Fragment_typeface extends Fragment {
     Typeface typefaceMono = Typeface.create(Typeface.MONOSPACE, Typeface.NORMAL);
     Typeface typefaceDefault = Typeface.create(Typeface.DEFAULT, Typeface.NORMAL);
     Typeface typefaceSerif = Typeface.create(Typeface.SERIF, Typeface.NORMAL);

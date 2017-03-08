@@ -1,8 +1,6 @@
 package com.example.misikirmehari.FontChooser;
 
-import android.content.Context;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,14 +12,14 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Fragment_Style.OnFragmentInteractionListener} interface
+ * {@link Fragment_style.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Fragment_Style#newInstance} factory method to
+ * Use the {@link Fragment_style#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Fragment_Color extends Fragment {
+public class Fragment_color extends Fragment {
 
-    public Fragment_Color() {
+    public Fragment_color() {
         // Required empty public constructor
     }
 

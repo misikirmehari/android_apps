@@ -3,8 +3,6 @@ package com.example.misikirmehari.FontChooser;
 import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -34,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                Fragment_Size size_frag = new Fragment_Size();
-                Fragment_Style style_frag = new Fragment_Style();
-                Fragment_Typeface font_frag = new Fragment_Typeface();
-                Fragment_Color color_frag = new Fragment_Color();
+                Fragment_size size_frag = new Fragment_size();
+                Fragment_style style_frag = new Fragment_style();
+                Fragment_typeface font_frag = new Fragment_typeface();
+                Fragment_color color_frag = new Fragment_color();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
 
 

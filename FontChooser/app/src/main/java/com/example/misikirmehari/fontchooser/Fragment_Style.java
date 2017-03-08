@@ -9,18 +9,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import static android.R.attr.button;
-
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Fragment_Style.OnFragmentInteractionListener} interface
+ * {@link Fragment_style.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Fragment_Style#newInstance} factory method to
+ * Use the {@link Fragment_style#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Fragment_Style extends android.app.Fragment {
+public class Fragment_style extends android.app.Fragment {
 
 
     // Declaring and assigning the type face object
@@ -33,7 +31,7 @@ public class Fragment_Style extends android.app.Fragment {
 
 
 
-    public Fragment_Style() {
+    public Fragment_style() {
         // Required empty public constructor
     }
 
