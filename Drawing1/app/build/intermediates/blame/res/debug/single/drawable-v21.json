@@ -1,14 +1,14 @@
 [
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_edit_text_material.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_btn_colored_material.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

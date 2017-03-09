@@ -36,7 +36,7 @@ public class ChalkBoard extends View {
     int displayHeight;      //height of screen - initialized in constructor
 
 
-    public static final int BOUNCE_RECOLOR = 13;
+    public static final int BOUNCE_ACCELERATE_ROTATE = 13;
     public static final int BOUNCE_ROTATE = 14;
 
 
@@ -170,12 +170,41 @@ public class ChalkBoard extends View {
                 break;
 
             // Added New Animations Bounce And Recolor to Project
-            case BOUNCE_RECOLOR:
-                getObjectAnimator(800, "curr_color", 0.0f, 1.0f).start();
+            case BOUNCE_ACCELERATE_ROTATE:
+                ObjectAnimator bounce = getObjectAnimator(500, "fraction", 0.0f, 1.0f); //local method
+                bounce.setInterpolator(new BounceInterpolator());
+
+
+                ObjectAnimator Accelerate = getObjectAnimator(500, "fraction", 0.0f, 1.0f);
+                Accelerate.setDuration(2000);
+
+//                ObjectAnimator Accelerate = getObjectAnimator(500, "fraction", 0.0f, 1.0f); //local method
+//                Accelerate.setInterpolator(new AccelerateInterpolator(1.5f));
+
+                ObjectAnimator rotate = getObjectAnimator(700, "angle", 0.0f, 360.0f);
+
+
+                AnimatorSet sets = new AnimatorSet();
+
+                sets.play(bounce).before(Accelerate).before(rotate);
+
+                sets.start();
                 break;
 
             case BOUNCE_ROTATE:
-                getObjectAnimator(700, "angle", 0.0f, 360.0f).start();
+                ObjectAnimator bouncer = getObjectAnimator(500, "fraction", 0.0f, 1.0f); //local method
+                bouncer.setInterpolator(new BounceInterpolator());
+                bouncer.setDuration(800);
+
+                ObjectAnimator rotateb = getObjectAnimator(700, "angle", 0.0f, 360.0f);
+
+
+                AnimatorSet setsBR = new AnimatorSet();
+
+                setsBR.play(bouncer).before(rotateb);
+
+                setsBR.start();
+
                 break;
 
 

@@ -15,11 +15,11 @@ ADDED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/an
 		INJECTED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml:5:5-21:19
-MERGED from [com.android.support:design:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] /Users/misikirmehari/.android/build-cache/156eb7562d82b6902b1a7184353e11aa136cbd76/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/misikirmehari/.android/build-cache/86eb609ede4a2170cf3c617fc545470d8f2e9dc7/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/misikirmehari/.android/build-cache/5e0062c853db3f703671422674576e8226a4cbf0/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/misikirmehari/.android/build-cache/eb72ea9ee483e196981b92e94df664af454b6fe6/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -50,14 +50,14 @@ ADDED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/an
 		ADDED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] /Users/misikirmehari/.android/build-cache/156eb7562d82b6902b1a7184353e11aa136cbd76/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/misikirmehari/.android/build-cache/c8a68a149ff8a52b10963cf960a4b42a9676e92c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/misikirmehari/.android/build-cache/86eb609ede4a2170cf3c617fc545470d8f2e9dc7/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/misikirmehari/.android/build-cache/5e0062c853db3f703671422674576e8226a4cbf0/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/misikirmehari/.android/build-cache/eb72ea9ee483e196981b92e94df664af454b6fe6/output/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/src/main/AndroidManifest.xml

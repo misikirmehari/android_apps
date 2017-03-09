@@ -60,13 +60,13 @@
     <item
         android:id="@+id/bounce_recolor"
         android:orderInCategory="63"
-        android:title="Bounce_Recolor"
+        android:title="Bounce,Accelerate And Rotate"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/bounce_rotate"
         android:orderInCategory="64"
-        android:title="Bounce and ROTATE"
+        android:title="Bounce And Rotate"
         app:showAsAction="never" />
 
 </menu>

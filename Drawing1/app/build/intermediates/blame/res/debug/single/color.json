@@ -1,38 +1,38 @@
 [
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_disable_only_material_light.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_secondary_text_material_dark.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_search_url_text.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_material_dark.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/switch_thumb_material_light.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_material_light.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/switch_thumb_material_dark.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/misikirmehari/Documents/spring2017/androidMobileProgramming/android_apps/Drawing1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_secondary_text_material_light.xml"
+        "source": "/Users/misikirmehari/.android/build-cache/fe72fd02ada0d83281163a9c8ce9efdc01a02240/output/res/color/abc_secondary_text_material_light.xml"
     }
 ]
