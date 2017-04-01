@@ -51,17 +51,6 @@
         android:background="@drawable/shapesbuttons"
         android:typeface="serif" />
 
-    <TextView
-        android:id="@+id/font_frag_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/shapes"
-
-        android:textSize="16sp"
-        android:translationY="25dp" />
-
     <Button
         android:id="@+id/monospace_font"
         android:layout_width="match_parent"

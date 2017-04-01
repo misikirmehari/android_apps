@@ -6,6 +6,7 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -40,17 +41,17 @@ public class Fragment_color extends Fragment {
 
         final SeekBar seekBar_blue  = (SeekBar) view.findViewById(R.id.seekbar_blue);
 
-        final TextView v = (TextView) view.findViewById(R.id.color_frag_text);
+        final EditText editText = (EditText) getActivity().findViewById(R.id.editText);
 
         String colorinput = getArguments().getString("color");
-        v.setText(colorinput);
+        editText.setText(colorinput);
 
 
         seekBar_red.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
 
-                v.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
+                editText.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
             }
 
             @Override
@@ -69,7 +70,7 @@ public class Fragment_color extends Fragment {
         seekBar_green.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                v.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
+                editText.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
             }
 
             @Override
@@ -91,7 +92,7 @@ public class Fragment_color extends Fragment {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
 
-                v.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
+                editText.setTextColor(Color.rgb(seekBar_red.getProgress(),seekBar_green.getProgress(),seekBar_blue.getProgress()));
             }
 
             @Override
@@ -104,12 +105,6 @@ public class Fragment_color extends Fragment {
 
             }
         });
-
-
-
-
-
-
 
         return  view ;
     }

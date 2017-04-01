@@ -14,14 +14,33 @@
         android:id="@+id/editText"
         android:hint="@string/enter_your_word_here"/>
 
-    <TextView
-        android:text="@string/choose_a_font_characterstic_to_edit"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="20dp"
-        android:translationX="22dp"/>
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/choose_a_font_characterstic_to_edit"
+            android:layout_width="261dp"
+            android:layout_height="73dp"
+            android:id="@+id/textView"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15dp"
+            android:translationX="22dp"/>
+
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Done"
+            android:background="@drawable/shapesbuttons">
+
+        </Button>
+
+
+    </LinearLayout>
 
     <RadioGroup
         android:layout_width="match_parent"

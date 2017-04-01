@@ -7,7 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+
+import static android.view.View.VISIBLE;
 
 
 /**
@@ -44,11 +47,10 @@ public class Fragment_style extends android.app.Fragment {
 
         View view = inflater.inflate(R.layout.fragment_fragment_style, container, false);
 
-        final TextView textView = (TextView) view.findViewById(R.id.style_frag_text);
 
-        String txt = getArguments().getString("main");
 
-        textView.setText(txt);
+        final String txt = getArguments().getString("main");
+
 
         final Button Bold = (Button) view.findViewById(R.id.bold);
 
@@ -58,32 +60,47 @@ public class Fragment_style extends android.app.Fragment {
 
         final Button Normal = (Button) view.findViewById(R.id.normal);
 
+        final EditText editText = (EditText)getActivity().findViewById(R.id.editText);
+
+
+
 
         Bold.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setTypeface(typeface_bold);
+
+
+                editText.setText(txt);
+                editText.setTypeface(typeface_bold);
             }
         });
 
         Bold_Italic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setTypeface(typeface_bold_italic);
+                editText.setText(txt);
+                editText.setTypeface(typeface_bold_italic);
+
+
+
+
             }
         });
 
         Italic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setTypeface(typeface_italic);
+                editText.setText(txt);
+                editText.setTypeface(typeface_italic);
             }
         });
+
 
         Normal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setTypeface(typeface_normal);
+                editText.setText(txt);
+                editText.setTypeface(typeface_normal);
             }
         });
 

@@ -22,35 +22,28 @@ public class Fragment_size extends Fragment {
         View view = inflater.inflate(com.example.misikirmehari.FontChooser.R.layout.fragment_fragment_size, container, false);
 
 
+        final EditText numText = (EditText) view.findViewById(R.id.font_size_txt);
 
-        final EditText editText = (EditText) view.findViewById(R.id.font_size_txt);
+
         Button button = (Button) view.findViewById(R.id.submit_button);
 
-
-
-        final TextView textView = (TextView) view.findViewById(R.id.size_frag_text);
-
-
+        final EditText editText = (EditText)getActivity().findViewById(R.id.editText);
 
         String input = getArguments().getString("size");
-        textView.setText(input);
-
+        editText.setText(input);
 
 
         button.setOnClickListener(new View.OnClickListener() {
-    @Override
-    public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
 
-        String value = editText.getText().toString();
-        textView.setTextSize(Integer.parseInt(value));
-    }
-});
-
-
+                String value = numText.getText().toString();
+                editText.setTextSize(Integer.parseInt(value));
+            }
+        });
 
 
-
-    return view;
+        return view;
 
 
     }

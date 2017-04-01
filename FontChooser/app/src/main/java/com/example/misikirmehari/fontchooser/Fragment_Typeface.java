@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 
@@ -23,9 +24,9 @@ public class Fragment_typeface extends Fragment {
         View view = inflater.inflate(com.example.misikirmehari.FontChooser.R.layout.fragment_fragement_typeface, container, false);
 
 
-        final TextView font_txt = (TextView) view.findViewById(R.id.font_frag_text);
+        final EditText editText = (EditText) getActivity().findViewById(R.id.editText);
         String str = getArguments().getString("font");
-        font_txt.setText(str);
+        editText.setText(str);
 
 
         Button monospaceBtn = (Button) view.findViewById(R.id.monospace_font);
@@ -38,35 +39,35 @@ public class Fragment_typeface extends Fragment {
         monospaceBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                font_txt.setTypeface(typefaceMono);
+                editText.setTypeface(typefaceMono);
             }
         });
 
         defaultBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                font_txt.setTypeface(typefaceDefault);
+                editText.setTypeface(typefaceDefault);
             }
         });
 
         defaultBoldBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                font_txt.setTypeface(typefaceDefaultBold);
+                editText.setTypeface(typefaceDefaultBold);
             }
         });
 
         serifBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                font_txt.setTypeface(typefaceSerif);
+                editText.setTypeface(typefaceSerif);
             }
         });
 
         sansSerifBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                font_txt.setTypeface(typefaceSans);
+                editText.setTypeface(typefaceSans);
             }
         });
 

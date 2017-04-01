@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textViewEmail"
         android:layout_marginTop="57dp" />
@@ -32,6 +34,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/textViewEmail"
         android:text="Email"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
         android:layout_alignBaseline="@+id/editTextEmail"
         android:layout_alignBottom="@+id/editTextEmail"
         android:layout_alignParentStart="true"

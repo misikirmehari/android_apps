@@ -6,18 +6,6 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:translationY="25dp"
-        android:background="@drawable/shapes"
-
-        android:layout_marginTop="38dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/style_frag_text"
-        android:textSize="16sp"/>
-
     <Button
         android:text="Bold"
         android:layout_width="match_parent"
