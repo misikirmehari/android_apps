@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.misikirmehari.blog.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:inputType="textMultiLine|textAutoCorrect|textAutoComplete"
+        android:id="@+id/edit_text"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="top"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_btn"
+        android:text="Choose Font"
+        android:background="@drawable/shapesbuttons"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_below="@+id/edit_text"
+        android:layout_toRightOf="@+id/currentFontColorLabel"
+        android:layout_toEndOf="@+id/currentFontColorLabel" />
+
+    <TextView
+        android:id="@+id/currentFontColorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/send_btn"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/currentFontLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/currentFontColorLabel"
+        android:layout_alignRight="@+id/currentFontColorLabel"
+        android:layout_below="@+id/currentFontColorLabel"
+        android:layout_marginTop="26dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/currentfontcolorinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/currentFontColorLabel"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/currentFontColorLabel"
+        android:layout_toRightOf="@+id/currentFontColorLabel"/>
+
+    <TextView
+        android:id="@+id/currentfontinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/currentFontLabel"
+        android:layout_alignEnd="@+id/currentfontcolorinput"
+        android:layout_alignRight="@+id/currentfontcolorinput" />
+
+    <Button
+        android:id="@+id/share_blog_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/send_btn"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_toEndOf="@+id/send_btn"
+        android:layout_toRightOf="@+id/send_btn"
+        android:text="Send Blog as Message"
+        android:background="@drawable/shapesbuttons"
+        />
+
+</RelativeLayout>
