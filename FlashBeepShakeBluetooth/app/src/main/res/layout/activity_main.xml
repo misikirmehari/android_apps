@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="info.devexchanges.bluetoothchatapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not Connected"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="5dp"
+
+                />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_vibrate"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="Shake"
+                android:background="@drawable/vibrate"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_beep"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/btn_vibrate"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/speaker"
+                android:text="Scream" />
+
+            <ImageButton
+                android:id="@+id/btn_flash"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/btn_beep"
+                android:text="Flash ON/OFF"
+                android:background="@drawable/flashlight"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapes"
+            android:text="Connect via BT" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.48"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.8">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter beep/flash/shake" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:text="send" />
+    </LinearLayout>
+</LinearLayout>
