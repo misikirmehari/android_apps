@@ -1,2 +1,3 @@
-# BluetoothChatAppAndroid
-Make a simple chat application through bluetooth in Android
+# FlashBeepShakeviaBluetooth
+Make a Phone connected via bluettoth to turn on/off the light , Vibrate and Beep.
+
